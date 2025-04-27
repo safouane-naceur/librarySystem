@@ -19,5 +19,8 @@ class Book {
 
     // Setters
     public void setBorrowed(boolean borrowed) { isBorrowed = true; }
+
+    public abstract String getBookType();
 }
+
 
