@@ -8,7 +8,7 @@ public class EBook extends Book {
         this.fileSize = fileSize;
     }
 
-    // Getters for EBook specific attributes
+    // Getters 
     public String getFileFormat() { return fileFormat; }
     public double getFileSize() { return fileSize; }
 
